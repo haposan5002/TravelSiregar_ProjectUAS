@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/stat_value"
+        android:text="12"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/darkBlue" />
+
+    <TextView
+        android:id="@+id/stat_label"
+        android:text="Trip"
+        android:textSize="14sp"
+        android:textColor="#777" />
+</LinearLayout>

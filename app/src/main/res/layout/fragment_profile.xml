@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="24dp"
+    tools:context=".Fragment.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/circle_bg"
+            android:src="@drawable/user" />
+
+        <!-- Name -->
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama User"
+            android:fontFamily="@font/urbanist_bold"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Bio -->
+        <TextView
+            android:id="@+id/profileBio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Traveler. Nature Lover. Storyteller."
+            android:textColor="#666666"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <!-- Statistik Trip -->
+        <LinearLayout
+            android:id="@+id/statLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trip"
+                    android:textSize="14sp"
+                    android:textColor="#777777" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destinasi"
+                    android:textSize="14sp"
+                    android:textColor="#777777" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bahasa"
+                    android:textSize="14sp"
+                    android:textColor="#777777" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Travel Quote -->
+        <TextView
+            android:id="@+id/travelQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Travel quote here"
+            android:fontFamily="@font/urbanist_semibold_italic"
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:gravity="center" />
+
+        <!-- Edit Profile Button -->
+        <Button
+            android:id="@+id/editProfileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/blue"
+            android:text="Edit Profil"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/sora_medium" />
+
+        <!-- Wishlist Title -->
+        <TextView
+            android:id="@+id/wishlistTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Wishlist Anda"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/wishlistRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:nestedScrollingEnabled="false" />
+
+        <TextView
+            android:id="@+id/textEmptyWishlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Belum ada wishlist"
+            android:textColor="#999999"
+            android:visibility="gone"
+            android:textSize="14sp" />
+
+        <!-- Recommendation Title -->
+        <TextView
+            android:id="@+id/recommendationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Rekomendasi untuk Anda"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkBlue" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recommendationRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:nestedScrollingEnabled="false" />
+
+        <!-- Peta -->
+        <org.osmdroid.views.MapView
+            android:id="@+id/osmMap"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

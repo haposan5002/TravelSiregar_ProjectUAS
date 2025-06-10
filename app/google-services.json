@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "223631937807",
+    "project_id": "travelsiregar07",
+    "storage_bucket": "travelsiregar07.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223631937807:android:f2c34ef087ea08a3b76e7a",
+        "android_client_info": {
+          "package_name": "com.example.travelsiregar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5rkrGOESAKTyzuE2i9vAruhsXW0-ReIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

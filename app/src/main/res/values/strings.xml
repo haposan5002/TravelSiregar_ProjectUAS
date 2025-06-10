@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Travel Siregar</string>
+    <string name="cari">Cari</string>
+    <string name="isi_alamat_anda">Isi alamat anda...</string>
+    <string name="see_all">See all</string>
+    <string name="upcoming_trip">Upcoming trip</string>
+    <string name="tour_guide">Tour Guide</string>
+    <string name="time">Time</string>
+    <string name="tip_duration">Tip Duration</string>
+    <string name="total_guest">Total Guest</string>
+    <string name="title">Title</string>
+    <string name="download_ticket">Download Ticket</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="destinasi_terpopuler">Destinasi Terpopuler</string>
+    <string name="rekomendasi">Rekomendasi</string>
+</resources>

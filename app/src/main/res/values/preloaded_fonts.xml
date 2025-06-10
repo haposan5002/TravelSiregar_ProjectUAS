@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/cabin_italic</item>
+        <item>@font/dm_sans_medium</item>
+        <item>@font/dm_sans_medium_italic</item>
+        <item>@font/manrope</item>
+        <item>@font/manrope_bold</item>
+        <item>@font/manrope_medium</item>
+        <item>@font/manrope_semibold</item>
+        <item>@font/outfit</item>
+        <item>@font/outfit_extrabold</item>
+        <item>@font/outfit_medium</item>
+        <item>@font/poppins_black</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/poppins_thin</item>
+        <item>@font/questrial</item>
+        <item>@font/sora_medium</item>
+        <item>@font/urbanist</item>
+        <item>@font/urbanist_black</item>
+        <item>@font/urbanist_bold</item>
+        <item>@font/urbanist_italic</item>
+        <item>@font/urbanist_light_italic</item>
+        <item>@font/urbanist_medium</item>
+        <item>@font/urbanist_medium_italic</item>
+        <item>@font/urbanist_semibold</item>
+        <item>@font/urbanist_semibold_italic</item>
+    </array>
+</resources>
